@@ -27,12 +27,12 @@
         </header>
 
         <main>
-            <section>
+            <section class="secao1">
                 <div>
                     <h1>Primeiro, seu prato</h1>
                 </div>
                 <div class="opcoes">
-                    <div class="opcao">
+                    <div onclick="selecionarPrato(this)" class="opcao">
                         <div class="imagem-produto">
                             <img src="./img/frango_yin_yang.png">
                         </div>
@@ -41,7 +41,7 @@
                         <div><a class="preco">$ 14,90</a></div>
 
                     </div>
-                    <div class="opcao">
+                    <div onclick="selecionarPrato(this)" class="opcao">
                         <div class="imagem-produto">
                             <img src="./img/frango_yin_yang.png">
                         </div>
@@ -49,7 +49,7 @@
                         <div><a class="descricao">Um pouco de batata, um pouco de salada</a></div>
                         <div><a class="preco">$ 14,90</a></div>
                     </div>
-                    <div class="opcao">
+                    <div onclick="selecionarPrato(this)" class="opcao">
                         <div class="imagem-produto">
                             <img src="./img/frango_yin_yang.png">
                         </div>
@@ -60,12 +60,12 @@
 
                 </div>
             </section>
-            <section>
+            <section class="secao2">
                 <div>
                     <h1>Agora, sua bebida</h1>
                 </div>
                 <div class="opcoes">
-                    <div class="opcao">
+                    <div onclick="selecionarBebida(this)" class="opcao">
                         <div class="imagem-produto">
                             <img src="./img/coca-cola.png">
                         </div>
@@ -74,7 +74,7 @@
                         <div><a class="preco">R$ 4,90</a></div>
 
                     </div>
-                    <div class="opcao">
+                    <div onclick="selecionarBebida(this)" class="opcao">
                         <div class="imagem-produto">
                             <img src="./img/coca-cola.png">
                         </div>
@@ -82,7 +82,7 @@
                         <div><a class="descricao">Lata 350ml</a></div>
                         <div><a class="preco">R$ 4,90</a></div>
                     </div>
-                    <div class="opcao">
+                    <div onclick="selecionarBebida(this)" class="opcao">
                         <div class="imagem-produto">
                             <img src="./img/coca-cola.png">
                         </div>
@@ -93,12 +93,12 @@
 
                 </div>
             </section>
-            <section class="ultima-secao">
+            <section class="secao3">
                 <div>
                     <h1>Por fim, sua sobremesa</h1>
                 </div>
                 <div class="opcoes">
-                    <div class="opcao">
+                    <div onclick="selecionarSobremesa(this)" class="opcao">
                         <div class="imagem-produto">
                             <img src="./img/pudim.png">
                         </div>
@@ -107,7 +107,7 @@
                         <div><a class="preco">$ 14,90</a></div>
 
                     </div>
-                    <div class="opcao">
+                    <div onclick="selecionarSobremesa(this)" class="opcao">
                         <div class="imagem-produto">
                             <img src="./img/pudim.png">
                         </div>
@@ -115,7 +115,7 @@
                         <div><a class="descricao">Apenas pudim</a></div>
                         <div><a class="preco">$ 14,90</a></div>
                     </div>
-                    <div class="opcao">
+                    <div onclick="selecionarSobremesa(this)" class="opcao">
                         <div class="imagem-produto">
                             <img src="./img/pudim.png">
                         </div>
@@ -128,11 +128,12 @@
             </section>
         </main>
         <footer>
-            <div class="botao">
-                <a>Selecione os 3 itens<br>
+            <button onclick="FecharPedido()">
+                <p>Selecione os 3 itens<br>
                 para fechar o pedido
-                </a>
-            </div>
-        </footer>   
+                </p>
+            </button>
+        </footer>
+        <script src="./js/script.js"></script>
     </body>
 </html>
