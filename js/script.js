@@ -62,7 +62,7 @@ function FecharPedido(){
     const v3 = parseFloat(ultimoSele3.innerHTML.replace(',','.'));
     const soma = String((v1+v2+v3).toFixed(2).replace('.', ','));
     
-    let mensagem = `Olá, gostaria de fazer o pedido:${"\n"}- Prato: ${prato}${"\n"}- Bebida: ${bebida}${"\n"}- Sobremesa: ${sobremesa}${"\n\n"}Total: R$ ${soma}`;
+    let mensagem = `Olá, gostaria de fazer o pedido:${"\n"}- Prato: ${prato}${"\n"}- Bebida: ${bebida}${"\n"}- Sobremesa: ${sobremesa}${"\n"}Total: R$ ${soma}`;
     
     mensagem = window.encodeURIComponent(mensagem);
     window.open(`https://wa.me/558894712942?text=${mensagem}`);
