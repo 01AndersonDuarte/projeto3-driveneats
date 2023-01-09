@@ -72,6 +72,6 @@ function FecharPedido(){
         alert(mensagem);
 
         mensagem = window.encodeURIComponent(mensagem);
-        window.open(`https://wa.me/558881530433?text=${mensagem}`);
+        window.open(`https://wa.me/558894712942?text=${mensagem}`);
     }
 }
