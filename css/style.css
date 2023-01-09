@@ -111,6 +111,20 @@ footer{
     align-items: center;
     justify-content: center;
 }
+button{
+    width: 90%;
+    height: 61px;
+    background-color: #CBCBCB;
+    border: none;
+    border-radius: 50px;
+
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23px;
+    color: #FFFFFF;
+
+}
 footer button{
     width: 90%;
     height: 61px;
